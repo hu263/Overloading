@@ -1,0 +1,11 @@
+Friends
+
+An ordinary member function declaration specifies three logically distinct things:
+
+1. The function can access the private part of the class declaration
+2. The function is in the scope of the class
+3. The function must be invoked on an object (has a this pointer)
+
+By declaring a member function static, we can give it the first two properties.
+
+By declaring a function a friend, we can give it the first property only.
